@@ -13,14 +13,58 @@ video{
 
 }
 
+header h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: darkred;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    background-color: #333;
+    border-radius: 50px;
+}
+
 header p{
     font-size: 20px;
     font-weight: bold;
-    color: darkcyan;
+    color: mediumvioletred;
     text-align: center;
     padding: 10px;
     border: 1px solid lightgray;
     box-shadow: 0 0 17px darkslategray;
+    background-color: steelblue;
+    border-radius: 50px;
+}
+
+header{
+    background-color: dimgray;
+    padding: 10px;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 17px #BBB;
+    border-radius: 50px;
+}
+
+div#content{
+    background-color: dimgray;
+    padding: 10px;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 17px #BBB;
+    border-radius: 50px;
+}
+
+div#content h2{
+    font-size: 30px;
+    color: darkred;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+div#content p{
+    font-size: 20px;
+    color: skyblue;
+    text-align: center;
+    padding: 10px;
     border-radius: 50px;
 }
 
