@@ -151,7 +151,7 @@ img {
     padding: 20px;
     text-align: center;
     justify-content: center;
-    height: 20%;
+    height: 80%;
     width: 50%;
     margin: 0 auto;
     border: 2px solid rgb(82, 82, 82);
@@ -166,6 +166,69 @@ img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.comptetences ul {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px;
+}
+
+.espace {
+    padding: 20px;
+}
+
+.certif ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(82, 82, 82);
+    cursor: pointer;
+}
+
+.certif ul li:hover {
+    background-color: rgb(0, 143, 153);
+    color: rgb(255, 255, 255);
+}
+
+.comptetences ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(82, 82, 82);
+    cursor: pointer;
+}
+
+.comptetences ul li:hover {
+    background-color: rgb(0, 143, 153);
+    color: rgb(255, 255, 255);
+}
+
+.contact {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    height: 80%;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid rgb(82, 82, 82);
+}
+
+.contact h2 {
+    padding: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: crimson;
+}
 
 
 
