@@ -1,109 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>PorteFolio | Erwan</title>
+    <meta name="description" content="Portfolio de Erwan - Développeur Web - freelance indépendant">
+    <link rel="shortcut icon" href="./img/favicon.ico?v=1" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Portfolio | Erwan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    
-    <nav>
-        <div class="profile">
-            <img src="media/profil.png" alt="profile photo">
+
+    <header>
+        <div class="header">
             <h1>Erwan</h1>
         </div>
 
-        <ul>
-            <a href="https://github.com/XloxTV"><li>GitHub</li></a>
-            <a href="#projets"><li>Mes Projet</li></a>
-            <a href="#contact"><li>Contact</li></a>
-            <a href="blog.html"><li>Mon Blog</li></a>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-    <section class="page-content">
-
-    <header>
-        <h1>Hey, je suis un Développeur Web.</h1>
-        <p>Je suis un développeur web junior, je suis passionné par le développement web et <br>je suis actuellement en formation pour devenir développeur web fullstack.</p>
-
-        <button>Dites Hey</button>
     </header>
 
-    <section class="presentation-image">
-        <img src="https://i.ibb.co/RbGysWw/main-image.jpg" alt="AI image" />
-    </section>
-
-    <section class="projects-section" id="projets">
-        <h1>Projets réalisés</h1>
-        <div class="projects">
-            <div class="project">
-                <h4>Un robot créateur de cookies</h4>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Molestias sunt, atque aliquid pariatur.
-                </p>
-                <p class="dates">Dates 2015 - 2016</p>
-            </div>
-            <div class="project">
-                <h4>Prévision du caractère humain</h4>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Molestias sunt, atque aliquid pariatur.
-                </p>
-                <p class="dates">Dates 2016 - 2017</p>
-            </div>
-            <div class="project">
-                <h4>Création d'un assistant vocal</h4>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Molestias sunt, atque aliquid pariatur.
-                </p>
-                <p class="dates">Dates 2017 - 2018</p>
-            </div>
-            <div class="project">
-                <h4>Reconnaissance de formes</h4>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Molestias sunt, atque aliquid pariatur.
-                </p>
-                <p class="dates">Dates 2019 - 2020</p>
-            </div>
-            <div class="project">
-                <h4>Algorithme de reconnaissance d'objet</h4>
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Molestias sunt, atque aliquid pariatur.
-                </p>
-                <p class="dates">Dates 2020 - 2021</p>
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="grid">
+                <div class="hero__item_left">
+                    <span>Développeur Web</span>
+                    <h1 class="title">Hello, Je suis Erwan de Rouen</h1>
+                    <p>Je suis Jeune Développeur depuis 2020.</p>
+                </div>
+                <div class="hero__item_right">
+                    <div class="hero__avatar">
+                        <img src="./media/Cartoonify.png" width="400" height="400" loading="lazy"
+                            alt="Avatar John Doe - Développeur web freelance">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-</section>
-    </section>
+
+    <div class="about" id="about">
+        <h2>A PROPOS</h2>
+        <p>Je suis développeur débutant en HTML/CSS et PHP. J'ai également une expérience en Java. Je suis passionné par
+            le
+            développement web et j'aime apprendre de nouvelles technologies. Je suis déterminé à améliorer constamment
+            mes
+            compétences et à devenir un développeur professionnel de haut niveau.</p>
+    </div>
+
+    <div class="skills" id="skills">
+        <h2>MES COMPETENCES</h2>
+    </div>
+
+
+
 
     <footer>
-        <div class="colonne">
-            <h3>Mes services</h3>
-            <p>Développement de Web</p>
-            <p>Prestation en Front-End</p>
-            <p>Investissement en entreprises Tech</p>
-        </div>
-        <div class="colonne">
-            <h3>Mon entreprise</h3>
-            <p>Équipe constituée de 20k ingénieurs</p>
-            <p>Une communauté active mondiale</p>
-            <p>Une entreprise à but lucratif</p>
-        </div>
-        <div class="colonne">
-            <h3>Mes adresses</h3>
-            <p>pro.erwantv@gmail.com</p>
-            <p>intelligence@gmail.com</p>
-            <p>spacetech-science@spacetech.com</p>
-        </div>
+        <p>Copyright - Tous droits réservés Erwan 2023</p>
     </footer>
 
 </body>
+
 </html>
